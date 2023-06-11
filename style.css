@@ -46,12 +46,15 @@ body{
 }
 #textosombre{
     align-items: center;
+    height: 15em;
+    width: 100%;
 }
 
 #sobre{
+    width: 100%;
     padding: auto;
     margin-top: 10%;
-    height: 10em;
+    height: 12em;
     color: white;
     background: url("Constelacao.jpg") no-repeat;
     background-size: cover;
