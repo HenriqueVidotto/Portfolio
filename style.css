@@ -1,0 +1,201 @@
+@import url(//db.onlinewebfonts.com/c/69bed3a8aa634e734859ad564c6fd73c?family=ITC+Machine);
+
+
+
+
+
+#teste{
+	margin: 25px;
+}
+
+#projetos{
+	margin-top: 5%;
+	background-color: white;
+}
+
+body {
+	font: 150% Arial, Helvetica, sans-serif;
+}
+/* 150% do tamanho original "pai"  */
+
+
+h1 {
+	font: bold 100% Arial, Helvetica, sans-serif;
+}
+
+#projetos img{
+	border: 1px solid black;
+}
+#pagina {
+	
+	padding: 2px;
+	width: 85%; /* tamanho mais comum usado */
+	margin: 20px auto;
+    background: #ffffff ;
+	
+	
+}
+
+#cabecalho {
+	height: 18%;
+  
+    background: #ffffff;
+}
+
+#conteudo {
+	opacity: 90%;
+    width: 100%;
+	float:none;
+    background: #f8f8f8;
+}
+
+
+#rodape {
+	clear: both;
+}
+
+#cabecalho, #conteudo, #lateral {
+	margin-bottom: 5px;
+}
+
+	
+#pagina, #cabecalho, #conteudo, #lateral, #rodape {
+	border: solid 1px #ccc;
+}
+
+
+/* Media queries/* 
+
+/*  980px ou menor */
+
+#teste{
+    margin: 3px;
+}
+
+#textoperfil{
+
+	
+	margin-left: 3% ;
+	padding: 1em;
+	margin-top: 15%;	
+	border: 5px solid rgb(255,241,18);
+	background-color:white ;
+	opacity: 90%;
+	font-family:'ITC Machine', sans-serif ;
+	width:  40%;
+	padding: 3px;
+	position:absolute;
+}
+
+
+
+body{
+
+background: URL("Constelacao.jpg") ;
+background-size: cover;
+
+}
+
+
+
+#circulo img {
+	
+	width: 30em;
+  	height: 30em;
+	padding: 1rem;
+	border-radius: 50%;
+	
+	margin-left: 60%;
+	margin-top: 5%;
+	background: linear-gradient( rgb(255,241,18),rgb(246,141,50), rgb(255,241,18));
+	padding: 3px;
+ }
+
+
+
+ @media screen and (max-width: 980px) {
+	
+	#circulo
+    {
+		width: 94%;
+	}
+	#conteudo 
+	{
+		width: 65%;
+	}
+	#lateral 
+	{
+		width: 30%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	
+	#circulo img{
+		width: 10em;
+		height: 10em;
+		
+	}
+	#textoperfil{
+		opacity: 100%;
+	}
+
+
+}
+
+
+.card:hover{
+ box-shadow: 0 0 10px black;
+ transition: all 0.5s linear;
+}
+
+#projetos img{
+ 
+	height: 300px;
+
+}
+#conhecimentos{
+	font-family:'ITC Machine', sans-serif ;
+	margin-top: 5%;
+	background-color: white;
+	height: 100%;
+}
+
+#projetos{
+	font-family:'ITC Machine', sans-serif ;
+}
+
+#vermais{
+	width: auto;
+	
+
+   }
+
+   .titulo{
+	background:  linear-gradient( rgb(125, 69, 255),rgb(161, 199, 252), rgb(114, 93, 255));
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+   }
+
+
+   .container {
+	width: 70vw;
+	height: 70vh;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+	.box {
+	width: 40%;
+	height: 300px;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	}
+	
+
