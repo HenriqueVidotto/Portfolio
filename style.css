@@ -47,6 +47,7 @@ body{
 #textosombre{
     align-items: center;
     height: 15em;
+     padding: 10px;
     width: 100%;
 }
 
