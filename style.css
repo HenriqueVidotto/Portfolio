@@ -1,0 +1,63 @@
+@import url(//db.onlinewebfonts.com/c/69bed3a8aa634e734859ad564c6fd73c?family=ITC+Machine);
+
+body{
+     font-family:'ITC Machine', sans-serif ;;
+}
+#fotodeperfil{
+    margin: 30px;
+   max-width: 300px ;
+    max-height: 300px ;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient( rgb(255,241,18),rgb(246,141,50), rgb(255,241,18));
+}
+
+.card:hover{
+    
+    box-shadow: 0 0 0 1px black;
+    transition: all 0.5s linear;
+    scale: 1.03;
+}
+.row{
+    margin: 20px;
+}
+
+.icones img:hover{
+
+    transform: rotateY(360deg);
+    
+    transition: all 0.5s linear;
+}
+
+#final{
+     
+    background: rgb(201, 201, 201);
+}
+
+#perfil{
+    background-color: rgb(19, 32, 32);
+  
+    color: white;
+}
+
+#projetos{
+   
+   
+}
+#textosombre{
+    align-items: center;
+}
+
+#sobre{
+    padding: auto;
+    margin-top: 10%;
+    height: 10em;
+    color: white;
+    background: url("Constelacao.jpg") no-repeat;
+    background-size: cover;
+}
+
+#conhecimentos{
+
+    margin-bottom: 10% ;
+}

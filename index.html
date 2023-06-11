@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#perfil"  style="margin-left: 10px;">Henrique</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sobre">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projetos">Projetos</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+<section class="jumbotron text-center" id="perfil">
+    <div class="container">
+        <img src="minhafoto.jpg" id="fotodeperfil">
+      <h1 class="jumbotron-heading">Henrique Vidotto</h1>
+      <p class="lead " style="color: white;">Estudante - Fatec Sorocaba<p>
+        <a href="#final" class="btn btn-primary my-2">Contato</a>
+     
+      </p>
+    </div>
+  </section>
+
+  <section class="jumbotron text" id="conhecimentos">
+    <div class="container">
+        <h1 class="text-center">
+            Conhecimentos
+        </h1>
+
+        <p class="lead text-center" id="texto">Clique ou coloque o mouse encima do icone
+        </p>
+        <div class="text-center icones" >
+        <img src="icons8-html-100.png" id="html"  onmouseenter="html()" onmouseleave="limpar()">
+        <img src="icons8-java-100.png" id="java" onmouseenter="java()" onmouseleave="limpar()">
+        <img src="icons8-javascript-100.png" id="script" onmouseenter="javasript()" onmouseleave="limpar()">
+        <img src="icons8-asp-96.png" id="asp" onmouseenter="asp()" onmouseleave="limpar()">
+        <img src="icons8-c-100.png" id="c" onmouseenter="C()" onmouseleave="limpar()">
+         </div>
+    </div>
+  </section>
+
+
+  <section class="jumbotron text" id="sobre">
+    <div class="container" id="textosobre">
+        <h1 class="text-center">Sobre Mim</h1>
+        <h4>Meu nome é Henrique tenho  20 anos de idade, estou cursando o 4º semestre de Análise e Desenvolvimento de Sistemas na Fatec Sorocaba "José Crespo Gonzales".</h4>
+</div>
+  </section>
+
+
+
+ 
+  <div class="album py-5 " id="projetos">
+    
+    <div class="container" id="projetos">
+        <h1 class="text-center">Projetos</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-6 box-shadow">
+            <a href="https://github.com/HenriqueVidotto/Trabalhos-Etec/tree/main/Trab1" style="text-decoration:none; color: black; ">
+            <img class="card-img-top" src="a.png" alt="Thumbnail [100%x225]"  style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">Site desenvolvimento no curso de desenvolvimento de sistem na Etec Prof.Elias Miguel junior </p>
+              <div class="d-flex justify-content-between align-items-center">
+              </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-6 box-shadow">
+                <a href="https://github.com/HenriqueVidotto/PWEB/tree/main/Atividade7" style="text-decoration:none; color: black; ">
+              <img class="card-img-top" src="Screenshot_1.png" style="height: 250px; width: 100%; display: block;" alt="Thumbnail [100%x225]"  data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Jogo jokempô desenvolvido com Javasript</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-6 box-shadow">
+            <a href="https://github.com/HenriqueVidotto/projetos" style="text-decoration:none; color: black; ">
+            <img class="card-img-top" src="aps.png" alt="Thumbnail [100%x225]" style="height: 280px; width: 100%; display: block;"  data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">cRUD desenvolvido em ASP.net MVC</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+            
+            <div class="card mb-6 box-shadow" style="max-height: 350px; ">
+                <a href="https://github.com/antonioN313/ControlSerra/blob/main/README.md" style="text-decoration:none; color: black; ">
+              <img class="card-img-top" src="https://casaserralheiro.com.br/wp-content/uploads/2022/01/casadoserralheiro-blog-equipamentos-para-serralheria-epis-indispensaveis.png" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"  data-holder-rendered="true">
+              
+           <div class="card-body">
+        
+                <p class="card-text">Projeto Integrador desenvolvido com os integrantes:</p>
+                <ol>
+                    <li style="font-size: 12px;">Antonio Carlos</li>
+                    <li style="font-size: 12px;">Matheus Divaldi</li>
+                    <li style="font-size: 12px;">Guilherme Fidalgo</li>
+                </ol>
+
+                <div class="d-flex justify-content-between align-items-center">
+                </a>
+                </div>
+              </div>
+            </div>
+        </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <i >
+  </i>
+</div>
+
+
+<footer class="text-center" >
+<div id="final">
+    <h3>Contato</h3>
+    <p>Email: henriquevidotto77@gmail.com</p>
+ 
+    <div class="text-center icones" >
+        <a href="https://github.com/HenriqueVidotto">
+        <img src="icons8-github-50.png">
+        </a>
+        <a href="https://www.linkedin.com/in/henrique-vidotto-2100b620b/">
+        <img src="icons8-linkedin-50.png">
+    </a>
+    </div>
+
+</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
